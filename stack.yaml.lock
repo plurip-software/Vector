@@ -3,7 +3,21 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: acme-missiles-0.3@sha256:2ba66a092a32593880a87fb00f3213762d7bca65a687d45965778deb8694c5d1,613
+    pantry-tree:
+      sha256: 614bc0cca76937507ea0a5ccc17a504c997ce458d7f2f9e43b15a10c8eaeb033
+      size: 226
+  original:
+    hackage: acme-missiles-0.3
+- completed:
+    hackage: haddock-api-2.27.0@sha256:3cd85ab0a73705623f2f54e36cb60c922a0b37ef057e0f59d4ffb31e13daf86a,6156
+    pantry-tree:
+      sha256: 0dfec64bf7fff73465c8efe029f96c67159545829cd61d168d691721655ddf2b
+      size: 4598
+  original:
+    hackage: haddock-api-2.27.0@sha256:3cd85ab0a73705623f2f54e36cb60c922a0b37ef057e0f59d4ffb31e13daf86a,6156
 snapshots:
 - completed:
     sha256: 03cec7d96ed78877b03b5c2bc5e31015b47f69af2fe6a62d994a42b7a43c5805

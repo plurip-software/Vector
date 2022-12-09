@@ -40,7 +40,9 @@ packages:
 # - git: https://github.com/commercialhaskell/stack.git
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
-# extra-deps: []
+extra-deps: 
+- acme-missiles-0.3
+- haddock-api-2.27.0@sha256:3cd85ab0a73705623f2f54e36cb60c922a0b37ef057e0f59d4ffb31e13daf86a,6156
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
